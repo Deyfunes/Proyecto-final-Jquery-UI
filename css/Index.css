@@ -1,0 +1,227 @@
+@charset "utf-8";
+/*Css Document*/
+/*Proyecto Jquery UI */
+
+body{
+    width: 100%;
+    height: auto;
+    
+    
+}
+header{
+    height: auto;
+    text-align: center;
+    background: -webkit-linear-gradient(top, rgb(53, 30, 30) 20%, rgb(117, 67, 67) 80%);
+   
+}
+h1{
+    
+    color:transparent;
+    font: 3.6vw "Calisto MT";
+    background: -webkit-linear-gradient(top,#2b4e41 20%, #dce2e0 80%);
+    -webkit-background-clip:text;
+}
+
+.container{
+    height: auto;
+    width: 100%;
+    background: url(../image/checkersGame.jpg) right / cover, linear-gradient(rgba(193, 187, 204, 0.51),rgba(132, 179, 136, 0.612)); background-blend-mode: multiply;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.contenedor{
+    height: auto;
+    margin: 0 auto;
+    background: rgb(138, 84, 84);
+
+}
+#miGame{
+    height: 700px;
+     
+}
+#box1{
+    width: 230px;
+    height: 600px;
+    float: left;
+}
+#box2{
+    width: 230px;
+    height: 600px;
+    float: right;
+     
+}
+
+#tablero{
+    width: 80%;
+    height: auto;
+    margin: 0px; 
+    float: left;
+    border: 1px solid rgb(170, 209, 91);
+}
+
+#row-top, #row-bottom{
+    width: 100%; 
+    height: 51px;
+    border: 1px solid cyan;
+    float: left;
+    color: black;
+    background: green;
+    text-align: center;
+}
+#fila{
+    width: 100%;
+    height: 71px;
+}
+ 
+ #fila div{
+    
+    width: 12.5%;
+    height:71px;
+    margin: 0px;
+    float: left;
+ }
+
+#ht-1{
+    float:left;
+    border: 1px solid;
+    width: 10%;
+    height:51px;
+    color: orange;
+    font: 2vw "Candara";
+    margin: 0px;
+}
+
+ #column-left{
+    width:10%;
+    height: auto;
+    clear: both;
+    float: left;
+ }
+
+ #column-left div, #column-right div{
+    width: 100%;
+    height:71px;
+    border: 1px solid;
+    font: 2vw "Candara";
+    text-align: center;
+    background-color:green;
+    color: aqua;
+ }
+ 
+ #column-right{
+    width:10%;
+    height: auto;
+     float: left;
+ }
+ 
+#fr{
+
+    width: 70%;
+    height: 50px;
+    border: 3px solid brown;
+    border-radius: 50%;
+    box-shadow: 2px 3px 3px black;
+    margin: 7px auto 0 auto;
+}
+
+.j1{
+    background-color: red;   
+}
+
+.p1{
+    background-color: blue;
+}
+
+#fb{
+    width: 70%;
+    height: 50px;
+    border: 3px solid purple;
+    border-radius: 50%;
+    background-color: blue;
+    box-shadow: 2px 3px 3px black;
+    margin: 7px auto 0 auto;
+}
+
+#fila{
+    width: 100%;
+    height: 51px;    
+    margin: 0px;
+}
+ 
+ #white{
+     background-color:white; 
+ }
+
+ #black{
+     background-color: #000000;
+ }
+#foot{
+    
+    border-radius:5px;
+    background: -webkit-linear-gradient(top, rgb(117, 67, 67)  20%, rgb(53, 30, 30) 80%);
+    height: 160px;
+}
+#copy{
+    
+    height: auto;
+    font: 3vw "Calisto MT";
+    text-align: center;
+    color: #169b43;
+    
+}
+.icon{
+    text-align: center;
+}
+.icon a i{	
+	border-radius: 50%;
+	width: 68px;
+	height: 68px;
+	text-align: center;
+    position: relative;
+	font-size: 65px;
+	background: #9cb91a94;
+	color: rgba(193, 187, 204, 0.4);
+	 
+}
+
+.icon a i:hover{
+	background: rgba(193, 187, 204, 0.4);
+	color: #9cb91a94;
+}
+ 
+.icon a i::before{
+	z-index: 1;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+ 
+.icon a i::after{
+	content: '';
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	color: #6d6d9494;
+	border-radius: 50%;
+	width: 69px;
+	height: 69px;
+	z-index: 1;
+}
+ 
+.icon a i:hover::after{
+	animation: icn 5s linear infinite;
+	border: 3px outset #0b8059;
+ 
+}
+	@keyframes icn{
+		0%{
+			transform: rotate(0deg);
+		}
+		100%{
+			transform: rotate(360deg);
+		}
+	}
+

@@ -1,0 +1,219 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+
+
+<!--Librerias & frameworks-->
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="css/jquery-ui.css">
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="external/jquery/jquery.js"></script>
+<script src="js/jquery-ui.js"></script>
+
+
+<!--Mi diseño-->
+<link href="css/Index.css" rel="stylesheet" type="text/css">
+<script src="js/Index.js"></script>
+</head>
+
+<body>
+
+<div class="container col-lg-12">
+    <header class="header">
+    <h1 class="Jumbotron">Juego de Damas</h1>
+    </header>
+
+    <div class="contenedor col-lg-12">
+    
+        
+        <div id="box1"></div>
+        <div id="box2"></div>
+
+        <div id="miGame" class="col-lg-7">
+               
+                <div id="row-top">
+
+                        <div id="ht-1"></div>
+                        <div id="ht-1">A</div>
+                        <div id="ht-1">B</div>
+                        <div id="ht-1">C</div>
+                        <div id="ht-1">D</div>
+                        <div id="ht-1">E</div>
+                        <div id="ht-1">F</div>
+                        <div id="ht-1">H</div>
+                        <div id="ht-1">I</div>
+                        <div id="ht-1"></div>
+
+                </div>
+
+                <div id="column-left">
+                    <div>1</div>
+                    <div>2</div>
+                    <div>3</div>
+                    <div>4</div>
+                    <div>5</div>
+                    <div>6</div>
+                    <div>7</div>
+                    <div>8</div>
+                    
+
+                </div>
+
+               
+            <div id="tablero">
+
+                <div id="fila">
+
+                    <div id="black"></div>
+                    <div id="white"><p id="fr" class="j1"></p></div>
+                    <div id="black"></div>
+                    <div id="white"><p id="fr" class="j1"></p></div>
+                    <div id="black"></div>
+                    <div id="white"><p id="fr" class="j1"></p></div>
+                    <div id="black"></div>
+                    <div id="white"><p id="fr" class="j1"></p></div>
+                
+
+                </div>
+
+                <div id="fila">
+
+                    <div id="white"><p id="fr" class="j1"></p></div>
+                    <div id="black"></div>
+                    <div id="white"><p id="fr" class="j1"></p></div>
+                    <div id="black"></div>
+                    <div id="white"><p id="fr" class="j1"></p></div>
+                    <div id="black"></div>
+                    <div id="white"><p id="fr" class="j1"></p></div>
+                    <div id="black"></div>
+
+                </div>
+
+                <div id="fila">
+
+                    
+                    <div id="black"></div>
+                    <div id="white"><p id="fr" class="j1"></p></div>
+                    <div id="black"></div>
+                    <div id="white"><p id="fr" class="j1"></p></div>
+                    <div id="black"></div>
+                    <div id="white"><p id="fr" class="j1"></p></div>
+                    <div id="black"></div>
+                    <div id="white"><p id="fr" class="j1"></p></div>
+                    
+
+                </div>
+
+                <div id="fila">
+
+                    
+                    <div id="white"></div>
+                    <div id="black"></div>
+                    <div id="white"></div>
+                    <div id="black"></div>
+                    <div id="white"></div>
+                    <div id="black"></div>
+                    <div id="white"></div>
+                    <div id="black"></div>
+                    
+
+                </div>
+
+                <div id="fila">
+
+                    
+                    <div id="black"></div>
+                    <div id="white"></div>
+                    <div id="black"></div>
+                    <div id="white"></div>
+                    <div id="black"></div>
+                    <div id="white"></div>
+                    <div id="black"></div>
+                    <div id="white"></div>
+                    
+                </div>
+
+                <div id="fila">
+                    
+                    <div id="white"><p id="fb"></p></div>
+                    <div id="black"></div>
+                    <div id="white"><p id="fb"></p></div>
+                    <div id="black"></div>
+                    <div id="white"><p id="fb"></p></div>
+                    <div id="black"></div>
+                    <div id="white"><p id="fb"></p></div>
+                    <div id="black"></div>
+                    
+
+                </div>
+
+                <div id="fila">
+
+                    
+                    <div id="black"></div>
+                    <div id="white"><p id="fb"></p></div>
+                    <div id="black"></div>
+                    <div id="white"><p id="fb"></p></div>
+                    <div id="black"></div>
+                    <div id="white"><p id="fb"></p></div>
+                    <div id="black"></div>
+                    <div id="white"><p id="fb"></p></div>
+                    
+
+                </div>
+
+                <div id="fila">
+
+                    
+                    <div id="white"><p id="fb"></p></div>
+                    <div id="black"></div>
+                    <div id="white"><p id="fb"></p></div>
+                    <div id="black"></div>
+                    <div id="white"><p id="fb"></p></div>
+                    <div id="black"></div>
+                    <div id="white"><p id="fb"></p></div>
+                    <div id="black"></div>
+                    
+
+                </div>
+            
+            </div>
+            <div id="column-right">
+                     
+                    <div>1</div>
+                    <div>2</div>
+                    <div>3</div>
+                    <div>4</div>
+                    <div>5</div>
+                    <div>6</div>
+                    <div>7</div>
+                    <div>8</div>
+                     
+            </div>
+             
+            <div id="row-bottom">
+
+                <div id="ht-1"></div>
+                <div id="ht-1">A</div>
+                <div id="ht-1">B</div>
+                <div id="ht-1">C</div>
+                <div id="ht-1">D</div>
+                <div id="ht-1">E</div>
+                <div id="ht-1">F</div>
+                <div id="ht-1">H</div>
+                <div id="ht-1">I</div>
+        
+            </div>
+        </div>
+    </div>
+    <div id="foot" class="col-lg-12">
+        <p id="copy" class="col-lg-12">GameHouse &copy All Right Reserved</p>
+        <i class="icon col-lg-12"><a href="" class="github" title="Colaborate"><i class="fa fa-github"></i></a></i>
+    </div>
+</div>
+
+</body>
+
+</html>
